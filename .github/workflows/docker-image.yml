@@ -1,4 +1,4 @@
-name: Docker Image CI 3
+name: Docker Image CI 4
 
 on:
   push:
@@ -28,4 +28,4 @@ jobs:
       with:
         context: .
         push: true
-        tags: your-username/final-python-app:latest
+        tags: shaynaleonard/final-python-app:latest
